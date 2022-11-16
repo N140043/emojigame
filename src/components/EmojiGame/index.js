@@ -38,11 +38,12 @@ class EmojiGame extends Component {
     const currentScore = clickedEmojisList.length
     const game = currentScore === new Set(clickedEmojisList).size
     if (game) {
+      if (currentScore === 12) {
+        return [false, currentScore]
+      }
       return [true, currentScore]
     }
-    if (currentScore === 12) {
-      return [false, currentScore]
-    }
+
     return [false, currentScore - 1]
   }
 
