@@ -1,0 +1,51 @@
+.game-result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  height: 90%;
+  border: 2px solid #79ecf2;
+  background-color: #c0d0d1;
+  border-radius: 10px;
+}
+.result-image {
+  height: 80%;
+  width: 50%;
+}
+
+.result-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media (min-width: 767px) {
+  .result-heading {
+    font-size: 34px;
+  }
+}
+.result-para {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+@media (min-width: 767px) {
+  .result-para {
+    font-size: 24px;
+  }
+}
+.game-text-container {
+  text-align: center;
+}
+.result {
+  color: #3510c7;
+}
+.play-again-btn {
+  background-color: #ffce27;
+  padding: 7px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+}

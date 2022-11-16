@@ -1,0 +1,41 @@
+.emoji-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.single-emoji {
+  height: 22%;
+  width: 28%;
+  box-shadow: 0px 4px 10px 0px #726d85;
+  border: 2px solid #79ecf2;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #c0d0d1;
+  border-radius: 10px;
+
+  justify-content: center;
+}
+@media (min-width: 767px) {
+  .single-emoji {
+    height: 28%;
+    width: 22%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+}
+.emoji {
+  height: 50%;
+  width: 36%;
+}
+@media (min-width: 767px) {
+  .emoji {
+    height: 70px;
+    width: 70px;
+  }
+}
